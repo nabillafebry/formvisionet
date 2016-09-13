@@ -105,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
             Pass.setError("Password harus diisi");
             valid = false;
         }
+        if (password.length() < 5) {
+            Pass.setError("Password terlalu pendek");
+            valid = false;
+        }
 
 
         return valid;
