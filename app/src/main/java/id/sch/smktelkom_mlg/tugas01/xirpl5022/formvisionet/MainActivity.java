@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 tvHasil.setText(
 
                         "\nNama Anda :" + nama
-                                + "\n\nKelas Anda :"
+                                + "\n\nAngkatan Anda :"
                                 + angkatan.getSelectedItem().toString()
                                 + hasil + "\n\nJurusan Anda:" + level);
             }
